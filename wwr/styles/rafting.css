@@ -57,19 +57,14 @@ header nav ul li a:hover {
 h1,
 h2 {
     font-family: var(--heading-font);
-
 }
 
 nav,
 p,
 section,
 article {
-    margin: 16p 0;
+    margin: 16px 0;
     padding: 8px 0;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .hero {
@@ -83,14 +78,14 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     font-size: 1.8rem;
-    background-color: rgba;
+    background-color: rgba(29, 53, 87, 0.7);
     color: #fff;
 }
 
@@ -112,7 +107,7 @@ h1 {
 }
 
 .hero article p {
-    color: #fff;
+    color: #333;
     font-size: 0.9rem;
     line-height: 1.4;
     margin: 0;
@@ -154,10 +149,12 @@ footer .socialmedia {
     align-items: center;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 footer .socialmedia a {
     text-decoration: none;
+    display: inline-block;
 }
 
 footer .socialmedia img {
