@@ -52,7 +52,6 @@ h2 {
     left: 100px;
 }
 
-/* Class Selector for Grid Container */
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -117,4 +116,8 @@ footer {
     padding: 1rem;
     background-color: whitesmoke;
     border: var(--border);
+}
+
+main {
+    max-width: 840px;
 }
