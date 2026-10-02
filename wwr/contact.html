@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Company</title>
+    <meta name="description"
+      content="Get in touch with White Water Rafting Company. Send us your general inquiries, reservation questions, or website suggestions.">
+    <meta name="author" content="Khesi Mpofu">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- Site Header with Logo and Navigation -->
+    <header>
+        <img src="images/logo.jpg" alt="White Water Rafting Company Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Company Information -->
+        <section class="company-contact-info">
+            <h1>White Water Rafting Company</h1>
+            <p><strong>Address:</strong> 18 Derrick Avenue, Benoni EastRand</p>
+            <p><strong>Phone:</strong> +27 662 809 4432</p>
+            <p><strong>Email:</strong> info@whitewater.com</p>
+        </section>
+
+        <!-- Contact Grid (Map and Form Side-by-Side) -->
+        <div class="contact-grid">
+            <!-- Embedded Google Map -->
+            <section class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d42973.575564222825!2d28.37234553819104!3d-26.159853115237368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1790972025688!5m2!1sen!2sza"
+                  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                  title="Company Location Map"></iframe>
+            </section>
+
+            <!-- HTML Contact Form -->
+            <section class="form-container">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com"
+                      required>
+
+                    <!-- Radio Buttons for Message Purpose -->
+                    <fieldset class="purpose-fieldset">
+                        <legend>Message Purpose</legend>
+                        <div>
+                            <input type="radio" id="general" name="purpose" value="General Inquiry"
+                              checked>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="reservation" name="purpose"
+                              value="Reservation Question">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="suggestion" name="purpose"
+                              value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here..."
+                      required></textarea>
+
+                    <!-- Newsletter Checkbox -->
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Employee Profiles Section -->
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Vuyiswa - Lead Guide">
+                    <figcaption>Vuyiswa - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Lister - Reservation Manager">
+                    <figcaption>Lister - Reservation Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Tereziah - Safety Coordinator">
+                    <figcaption>Tereziah - Safety Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 White Water Rafting Adventures | Designed by Khesi Mpofu</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
